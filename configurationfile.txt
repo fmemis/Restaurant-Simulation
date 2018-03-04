@@ -1,0 +1,5 @@
+waiters 8
+table2 4
+table4 2
+table6 3
+table8 2
