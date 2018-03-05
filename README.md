@@ -12,14 +12,14 @@ In this project we have 4 main programs which(all together) simulate a restauran
   
  ### doorman
   When there is one or more empty tables at the restaurant the doorman checks if there is space for the first group 
-  of customers(customer program) in the queue.If there is it finds them the appropriate table(according to group size)
+  of customers(customer program) in the queue.If there is it finds the appropriate table for them(according to group size)
   and tells them to sit.If there is no table  which the necessary seat capacity it asks them to leave and proceeds with
   the next group.
-  Doorman programs finishes when the client queue is empty.
+  Doorman program finishes when the client queue is empty.
   
  ### customer
   Multiple customer programs are called(the user decides how many in the command line),each one with a small delay
-  for the previous to simulate that the customers do not arrive all at once in a restaurant.Each customer program 
+  for the previous to simulate that the customers do not arrive all at once at a restaurant.Each customer program 
   represents a group of customers who all sit together in the same table.
   If allowed to enter, the customer calls for a waiter.When the waiter comes and takes the order, the customer stays
   to eat for a random time(how much a customer will stay at the restaurant is decided randomly from the restaurant 
