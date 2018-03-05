@@ -37,6 +37,7 @@ In this project we have 4 main programs which(all together) simulate a restauran
  ## Compile and execute instructions
  
  To compile just run make.
+ 
  To execute restaurant: ./restaurant -n customers -I configurationfile -d printtime
  
  (the program will print statistics each "printtime" seconds)
