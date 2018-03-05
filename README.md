@@ -28,4 +28,23 @@ In this project we have 4 main programs which(all together) simulate a restauran
   customer program finishes its execution).
   
  ### waiter
+ 
+ Multiple waiter programs are called(how many is decided in the configuration file which is passed as an argument from the
+ command line when the restaurant program is called.)
+ The waiters wait for a customer to call them for an order or to pay the check.They serve the customer and go back to waiting.
+ The waiters processes all terminate when there is no customer in the restaurant or the customer queue.
+ 
+ ## Compile and execute instructions
+ 
+ To compile just run make.
+ To execute restaurant: ./restaurant -n customers -I configurationfile -d printtime
+ 
+ (the program will print statistics each "printtime" seconds)
+ 
+ Example: ./restaurant -n 50 -I configurationfile.txt -d 5
+ 
+ ## Notes
+ 
+ The project demonstrates the use of semaphores and shared segments in order to achieve interprocess communication and 
+ sychronization.
 
